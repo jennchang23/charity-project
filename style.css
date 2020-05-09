@@ -1,0 +1,132 @@
+/* WEBSITE CSS */
+
+.logo {
+    font-weight: bold;
+    color:white;
+    font-size: 40px;
+    font-style:bold;
+}
+.first image {
+    width: 20%; 
+    float: left; 
+    margin : 5px;
+}
+
+/* NAVIGATION BAR FORMATTING */
+/* Formatting Homepage button on nav bar */
+.navbar-brand {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Formatting buttons on nav bar */
+.navbar-nav a{
+display: block;
+color: black;
+padding: 10px 10px;
+text-decoration: none;
+}
+
+/* Changes background color on nav bar elements when scrolled over */
+.navbar-nav a:hover {
+background-color:lightgray;
+}
+
+/* HEADER TITLE */
+.header-title {
+    font-size: 64px;
+    /* font-weight: bold; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    text-align: center;
+}
+
+#title {
+	/* border-radius: .3rem;   */
+    padding: 15px 15px 15px 15px;   
+    background-color: #F8f9Fa;
+}
+
+/* PANEL BODY */
+.panel-body {
+	/* border-radius: .3rem;   */
+    padding: 15px 15px 15px 15px;   
+}
+
+/* SECTION FORMATTING IN BODY*/
+.section-header {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;  
+}
+
+
+.quote{
+    word-wrap: break-word;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.panel-body{
+    font-size: 18px;
+}
+
+.lead-image{
+    float: right;
+    object-fit: contain;
+}
+
+#charity-image{
+    float: right;
+    object-fit: contain;
+    height: 400px;
+    width: 725px;
+}
+
+#data-icon{
+    float: right;
+    object-fit: contain;
+    height: 400px;
+    width: 400px;   
+}
+
+.pic{
+    height: 150px;
+    width: 150px;
+    float: center;
+    object-fit: contain;
+    border-spacing: 10px;
+    padding: 10px;
+}
+
+@media (max-width: 500px) {
+    .navbar li {
+      padding: 10px;
+    }
+.text {
+    float: right;
+}
+.p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p1{
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+footer.footer{
+	background-color:#2d3238;
+	border-radius: .3rem;
+	text-align: center;
+	padding: 5px 5px;
+}
+.image{
+    height: 400px;
+    width : 500px;
+}
