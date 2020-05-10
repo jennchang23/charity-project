@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 ​    
     <!-- CSS File -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../static/css/style.css">
 
     <title>Charity Project</title>
   </head>
@@ -59,7 +59,7 @@
       </ul>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-6">
-      <img class="lead-image" id="charity-image" src="images/charity2.jpg" alt="charity-image">
+      <img class="lead-image" id="charity-image" src="{{url_for('static', filename='images/charity2.jpg')}}" alt="charity-image">
       </div>
       </div>
     </div>
@@ -74,7 +74,7 @@
       <p class="lead">Oprah Winfrey</p>
       </div>
       <div class="col-lg-5 col-md-5 col-sm-5">
-      <img class="lead-image" style="float:right" src="images/monthly-image.jpg" alt="monthly-image">
+      <img class="lead-image" style="float:right" src="{{url_for('static', filename='images/monthly-image.jpg')}}" alt="monthly-image">
       </div>
       </div>
     </div>
@@ -91,7 +91,7 @@
       </div>
       </div>
       <div class="col-lg-5 col-md-5 col-sm-5">
-      <img class="lead-image" id="data-icon" style="float:right" src="images/data-icon.png" alt="data-icon">
+      <img class="lead-image" id="data-icon" style="float:right" src="{{url_for('static', filename='images/data-icon.png')}}" alt="data-icon">
       </div>
       </div>
     </div>
@@ -108,27 +108,27 @@
                   
                  
           <div class="col-lg-2 col-md-6 col-sm-12">
-            <img class="pic" src="pics/Samir.png" height="150" width="150" alt="Samir" style="margin: 0px 350px">
+            <img class="pic" src="{{url_for('static', filename='pics/Samir.png')}}" height="150" width="150" alt="Samir" style="margin: 0px 350px">
             <p class="name" style="margin: 0px 300px">Samir Sandir</p>
           </div>
           
           <div class ="col-lg-2 col-md-6 col-sm-12">
-            <img class="pic" src="pics/Jennie.jpg" height="150" width="150" alt="Jennie" style="margin:0px 400px">
+            <img class="pic" src="{{url_for('static', filename='pics/Jennie.jpg')}}" height="150" width="150" alt="Jennie" style="margin:0px 400px">
             <p class="name" style="margin: 0px 350px">Jennie Chen</p>
           </div>
           
           <div class ="col-lg-2 col-md-6 col-sm-12">
-            <img class="pic" src="pics/Sanaz.png" height="150" width="150" alt="Sanaz" style="margin: 0px 450px">
+            <img class="pic" src="{{url_for('static', filename='pics/Sanaz.png')}}" height="150" width="150" alt="Sanaz" style="margin: 0px 450px">
             <p class="name" style="margin: 0px 400px">Sanaz Shahbazian</p>
           </div>
           
           <div class="col-lg-2 col-md-6 col-sm-12">
-            <img class="pic" src="pics/Jack.jpg" height="150" width="150" alt="Jack" style="margin: 0px 500px">
+            <img class="pic" src="{{url_for('static', filename='pics/Jack.jpg')}}" height="150" width="150" alt="Jack" style="margin: 0px 500px">
             <p class="name" style="margin: 0px 450px">Jack Oremus</p>
           </div>
           
           <div class="col-lg-2 col-md-6 col-sm-12">
-            <img class="pic" src="pics/Jade.png" height="150" width="150" alt="Jade" style="margin: 0px 550px">
+            <img class="pic" src="{{url_for('static', filename='pics/Jade.png')}}" height="150" width="150" alt="Jade" style="margin: 0px 550px">
             <p class="name" style="margin: 0px 500px">Jade Guo</p>
           </div>
   

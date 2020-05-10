@@ -9,13 +9,21 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 ​    
     <!-- CSS File -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../static/css/style.css">
 
     <title>Charity Project</title>
   </head>
   
-  
+    <!-- Call in data from app.py file using MongoDB -->
+    <script type="text/javascript">
+      const data = {{expense_details|tojson}}
+      console.log(data)
+    </script>
+      <script type="text/javascript" {{url_for('static', filename='js/expense-details.js')}}></script>
+    
+  <!-- Set background color of site -->
   <body style="background-color:rgb(223, 222, 222);">
+
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
         <a class="navbar-brand" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold;" href="index.html">Charity Project</a>
@@ -26,13 +34,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="charityDetails.html">Charity Details<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="charity-details.html">Charity Details<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="expenseDetails.html">Expense Details Comparison</a>
+              <a class="nav-link" href="expense-details.html">Expense Details Comparison</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="usCharityInfo.html">US Charity Info</a>
+              <a class="nav-link" href="us-charity-info.html">US Charity Info</a>
             </li>
            
         </div>

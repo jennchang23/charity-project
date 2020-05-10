@@ -1,9 +1,6 @@
-// from data.js
-var tableData = data;
-
 // Using the Charity Navigtaor data provided in the form of an array of JavaScript objects, write code that appends a table to your web page and then adds new rows of data for each charity.
 
-var tbody = d3.select("tbody");
+var tbody = d3.select(app.py);
 console.log(data);
 
 data.forEach(function(charityOrg) {
