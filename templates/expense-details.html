@@ -16,8 +16,9 @@
   
     <!-- Call in data from app.py file using MongoDB -->
     <script type="text/javascript">
-      const data = {{expense_details|tojson}}
-      console.log(data)
+      const totExp = {{total_expenses}}
+      const totRev = {{total_revenues}}
+
     </script>
       <script type="text/javascript" {{url_for('static', filename='js/expense-details.js')}}></script>
     
@@ -75,6 +76,7 @@
           <!-- ************************ -->
           <!-- ADD FILTER LISTS -->
           <!-- ************************ -->
+          <div id="pie-plot"></div>
         </div>
       </div>
 
