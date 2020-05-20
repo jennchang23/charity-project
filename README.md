@@ -44,7 +44,7 @@ Dataset was in CSV format. Webscraped in 2019 with rating details from 2017. API
  - This shows the landing page of our site.
  - Introduces what the project is about, the mission, Oprah, and our team.
  
- ![](charitydetails.gif)
+ <img src="readmeimages/index.gif" width="40" height="40" />
  
 ## CHARITY DETAILS
  - Allows users to browse a table with the complete database of charities. 
