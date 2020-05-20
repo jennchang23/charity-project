@@ -43,12 +43,14 @@ def charity_details():
 
 ## Route for Expense Details Page
 @app.route('/expense-details.html')
-def expense_details():
+def total_expenses():
     # Store the organizations' financial info in a list
-    expense_details = list(db.charity_data.find({}))
+    total_expenses = list(db.charity_data.find({},{'_id': 0,'name':1,'total_expenses':1, 'program_expenses':1,'fundraising_expenses':1,'administrative_expenses':1,'total_revenue':1,'ceo_compensation':1, 'category':1, 'ceo': 1, 'fund_eff':1, 'score':1, 'financial_score':1, 'accountability_score':1}))
+
+    clean_total_expenses = [{key.strip(): str(item).strip() for key, item in row.items()} for row in total_expenses]
 
     # Return the template with the charities list passed in 
-    return render_template('expense-details.html', expense_details=json.dumps(expense_details, default = myconverter))
+    return render_template('expense-details.html', total_expenses=json.dumps(clean_total_expenses))
 
 ## Route for US Charity Info Page
 @app.route('/us-charity-info.html')
