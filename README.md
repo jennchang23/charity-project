@@ -9,7 +9,7 @@ by Samir Sundar, Jade Guo, Jennie Chang, Sanaz Shahbazian, Jack Oremus
 </p>
 
 
-Our goal: Build a website to improve charity transparency through visualizations. We want donors to make informed decisions before choosing a charity worth their dollars.
+Our goal: Build a website to improve charity transparency through visualizations. We want donors to make informed decisions so they can have confidence in the charities of their choice.
 - Composed of four pages
   * Main Page
   * Charity Navigation Table 
@@ -39,4 +39,20 @@ Dataset was in CSV format. Webscraped in 2019 with rating details from 2017. API
 
 ## LOAD
  - Load the final table to Mongo Atlas DB - ready for connection to our Flask app.py.
+ 
+## HOME PAGE
+ - This shows the landing page of our site.
+ - Introduces what the project is about, the mission, Oprah, and our team.
+ 
+## CHARITY DETAILS
+ - Allows users to browse a table with the complete database of charities. 
+ - Filter options available for name, cause, and state.
+ - Gives description of charity name, cause, subcategory, state, and mission statement.
+ 
+## FINANCIAL DASHBOARD
+ - Allows users to 
+ 
+## 
+ 
+
  
