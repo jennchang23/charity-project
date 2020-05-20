@@ -12,27 +12,28 @@ by Samir Sundar, Jade Guo, Jennie Chang, Sanaz Shahbazian, Jack Oremus
   <img width="300" height="75" src="images/rotten_tomatoes.jpg">
 </p>
 
-Bring Rotten Tomatoes ratings to Netflix movies
-- Join Netflix data and Rotten Tomatoes data by movie name & release year
+Our goal: Build a website to improve charity transparency through visualizations.
+- Composed of four pages
+  * Main Page
+  * Charity Navigation Table 
+  * Charity Financial Information
+  * National Chartiy Distribution and Variety of Ratings
 
 ## EXTRACT
 Data Sources found on Kaggle:
-- Netflix Movies and TV Shows by Shivam Bansal
-- Rotten Tomatoes - Movies and Critics datasets by Stefano Leone
+- Charity Navigator Scores Expenses Dataset by Katy Qian
   
-Both datasets were in CSV format
+Dataset was in CSV format. Webscraped in 2019 with rating details from 2017. API had numerous nested objects/issues.
 
 ## TRANSFORM - What data cleaning/transformation was required?
 - Cleaning
-  - Both datasets: replace all null values with "NA"
-  - Netflix: kept all columns as is as Netflix data serves as parent dataset
-  - Netflix: renamed "listed_in" to "genre" and "title" to "movie_title" to be more explicit
-  - Rotten Tomatoes: renamed "in_theaters_date" to "RT_release_date"
-  - Rotten Tomatoes: exclude all columns except for rotten_tomatoes_link, movie_title, in_theaters_date, tomatometer_status, tomatometer_rating, audience_rating
-   - Filtered both datasets for movies specifically (excluded TV shows)
+   - Excluded charities without ratings.
+   - Renamed columns involving expenses, percentages, and ambiguous "scores".
+    * Includes: "tot_exp", "admin_exp_p", "fund_exp_p", "program_exp_p", "leader_comp", "leader_compensation_percentage", "program_exp", "fund_exp","admin_exp", "ascore","fscore", "tot_rev", "leader"
+   - Dropped "description" column to cut down file size by over 50%.
+   - Note that the csv was composed of objects and float64 dtypes.
+   - No joining required because of single csv.
   
-- Joining
-  - Join datasets based on unique key concatenated by movie title and release year as these are the two columns that exist in both datasets and have a higher likelihood of being the same across both. Release year was included in case some movies are a remake of an original movie.
   
 <p align="center">
   <img width="800" height="550" src="images/Netflix_RT_ERD_Diagram_cropped.png">
@@ -40,5 +41,5 @@ Both datasets were in CSV format
    
 
 ## LOAD
- - Load the final table to a relational database - Postgres SQL as we don't have any non-relational data.
+ - Load the final table to Mongo Atlas DB - ready for connection to our Flask app.py.
  
