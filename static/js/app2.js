@@ -233,7 +233,7 @@
                 .duration(200)
                 tooltip
                 .style("opacity", 1)
-                .html("Org Name:" +d["name"] + "<br></br>" + "Total Contribution: $" + parseFloat(d["fundraising_expenses"] /d["fund_eff"]).toFixed(2) + "<br></br>" + "Total Expenses: $" + d["total_expenses"] + "<br></br>" +"Financial Score: " + d["financial_score"] + "<br></br>" + "Accountability Score: " + d["accountability_score"] + "<br></br>" + "Total Score: " + d["score"])
+                .html("Org Name:" +d["name"] + "<br></br>" + "Org Size: " + d["size"] + "<br></br>" + "Total Contribution: $" + parseFloat(d["fundraising_expenses"] /d["fund_eff"]).toFixed(2) + "<br></br>" + "Total Expenses: $" + d["total_expenses"] + "<br></br>" +"Financial Score: " + d["financial_score"] + "<br></br>" + "Accountability Score: " + d["accountability_score"] + "<br></br>" + "Total Score: " + d["score"])
                 .style("left", (d3.mouse(this)[0]+30) + "px")
                 .style("top", (d3.mouse(this)[1]) + "px")
                 // console.log(d)
