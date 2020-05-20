@@ -12,7 +12,7 @@ by Samir Sundar, Jade Guo, Jennie Chang, Sanaz Shahbazian, Jack Oremus
   <img width="300" height="75" src="images/rotten_tomatoes.jpg">
 </p>
 
-Our goal: Build a website to improve charity transparency through visualizations.
+Our goal: Build a website to improve charity transparency through visualizations. We want donors to make informed decisions before choosing a charity worth their dollars.
 - Composed of four pages
   * Main Page
   * Charity Navigation Table 
