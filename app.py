@@ -35,11 +35,12 @@ def index():
 @app.route('/charity-details.html')
 def charity_details():
     # Store the entire charity collection in a list 
-    # charity_details = list(db.main_info.find({},{"mission":1, "websiteURL":1,"charityName":1,"cause":1, "mailingAddress":1}))
-    charity_details = list(db.charity_data.find({}))
+    charity_details = list(db.charity_data.find({},{"_id":0, "name":1, "category":1, "subcategory":1, "state":1, "motto":1}))
+
+    clean_charity_details = [{key.strip(): str(item).strip() for key, item in row.items()} for row in charity_details]
 
     # Return the template with the charities list passed in 
-    return render_template('charity-details.html', charity_details=json.dumps(charity_details, default = myconverter))
+    return render_template('charity-details.html', charity_details=json.dumps(clean_charity_details))
 
 ## Route for Expense Details Page
 @app.route('/expense-details.html')
