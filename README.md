@@ -7,9 +7,7 @@ by Samir Sundar, Jade Guo, Jennie Chang, Sanaz Shahbazian, Jack Oremus
 <p align="center">
   <img width="760" height="200" src="readmeimages/charitynavigator.png">
 </p>
-<p align="center">
-  <img width="300" height="75" src="images/rotten_tomatoes.jpg">
-</p>
+
 
 Our goal: Build a website to improve charity transparency through visualizations. We want donors to make informed decisions before choosing a charity worth their dollars.
 - Composed of four pages
