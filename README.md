@@ -29,7 +29,7 @@ Dataset was in CSV format. Webscraped in 2019 with rating details from 2017. API
 - Cleaning
    - Excluded charities without ratings.
    - Renamed columns involving expenses, percentages, and ambiguous "scores".
-          - Includes: "tot_exp", "admin_exp_p", "fund_exp_p", "program_exp_p", "leader_comp", "leader_compensation_percentage", "program_exp", "fund_exp","admin_exp", "ascore","fscore", "tot_rev", "leader"
+          - Includes: "tot_exp", "admin_exp_p", "fund_exp_p", "program_exp_p", "leader_comp", "leader_compensation_percentage",                       "program_exp", "fund_exp","admin_exp", "ascore","fscore", "tot_rev", "leader"
    - Dropped "description" column to cut down file size by over 50%.
    - Note that the csv was composed of objects and float64 dtypes.
    - No joining required because of single csv.
