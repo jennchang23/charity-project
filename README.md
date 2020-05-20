@@ -5,7 +5,7 @@ by Samir Sundar, Jade Guo, Jennie Chang, Sanaz Shahbazian, Jack Oremus
 ## Project Overview
 
 <p align="center">
-  <img width="560" height="200" src="readmeimages/charitynavigator.png">
+  <img width="1560" height="200" src="readmeimages/charitynavigator.png">
 </p>
 <p align="center">
   <img width="300" height="75" src="images/rotten_tomatoes.jpg">
