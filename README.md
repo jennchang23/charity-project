@@ -50,9 +50,20 @@ Dataset was in CSV format. Webscraped in 2019 with rating details from 2017. API
  - Gives description of charity name, cause, subcategory, state, and mission statement.
  
 ## FINANCIAL DASHBOARD
- - Allows users to 
+ - Bubble chart allows users to see what charities are fundraising the most efficiently.
+ - Tool tip shows organization name, organization size, total contributions, total expenses, financial score, accountability score, and total score.
+ - Hover over category to see bubble distribution among charities in that category vs rest.
+ - Charity financial tool gives a dropdown of all charities in database.
+ - Shows breakdown of total revenue, breakdown of total expenses, and ceo compensation.
  
-## 
+## US Charity Info
+ - Shows the distribution of charities across the United States. 
+ - Allows users to see how many charities exist within a state of interest.
+ - Average Score per Cause Category shows overall scores for categories. Gives general idea of charity types-encourages further exploration.
+ 
+ <p align="center">
+  <img width="800" height="550" src="readmeimages/uscharityinfo.png">
+</p>
  
 
  
