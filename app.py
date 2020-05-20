@@ -23,7 +23,7 @@ def myconverter(o):
 
 # Set routes
 ## Route for Homepage
-@app.route('/')
+@app.route('/index.html')
 def index():
     # # Store the entire charity collection in a list 
     # index = list(db.main_info.find({}))
