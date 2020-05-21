@@ -40,14 +40,18 @@ Dataset was in CSV format. Webscraped in 2019 with rating details from 2017. API
  - This shows the landing page of our site.
  - Introduces what the project is about, the mission, Oprah, and our team.
  
+ <p align="center">
  <img src="readmeimages/index.gif" width="800" height="550" />
+ </p>
  
 ## CHARITY DETAILS
  - Allows users to browse a table with the complete database of charities. 
  - Filter options available for name, cause, and state.
  - Gives description of charity name, cause, subcategory, state, and mission statement.
  
+ <p align="center">
  <img src="readmeimages/charitydetails.gif" width="800" height="550" />
+ </p>
  
 ## FINANCIAL DASHBOARD
  - Bubble chart allows users to see what charities are fundraising the most efficiently.
@@ -56,7 +60,9 @@ Dataset was in CSV format. Webscraped in 2019 with rating details from 2017. API
  - Charity financial tool gives a dropdown of all charities in database.
  - Shows breakdown of total revenue, breakdown of total expenses, and ceo compensation.
  
- <img src="readmeimages/financialdashboard.gif" width="800" height="550" />
+ <p align="center">
+ <img src="readmeimages/financialdashboard.gif" width="600" height="400" />
+ </p>
  
 ## US Charity Info
  - Shows the distribution of charities across the United States. 
@@ -64,7 +70,7 @@ Dataset was in CSV format. Webscraped in 2019 with rating details from 2017. API
  - Average Score per Cause Category shows overall scores for categories. Gives general idea of charity types-encourages further exploration.
  
  <p align="center">
-  <img width="800" height="550" src="readmeimages/uscharityinfo.gif" width="800" height="550">
+  <img width="800" height="550" src="readmeimages/uscharityinfo.gif">
 </p>
  
 
