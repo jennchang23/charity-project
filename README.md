@@ -64,7 +64,7 @@ Dataset was in CSV format. Webscraped in 2019 with rating details from 2017. API
  <img src="readmeimages/financialdashboard.gif" width="900" height="550" />
  </p>
  
-## US Charity Info
+## US CHARITY INFO
  - Shows the distribution of charities across the United States. 
  - Allows users to see how many charities exist within a state of interest.
  - Average Score per Cause Category shows overall scores for categories. Gives general idea of charity types-encourages further exploration.
