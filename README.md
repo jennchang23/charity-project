@@ -73,5 +73,6 @@ Dataset was in CSV format. Webscraped in 2019 with rating details from 2017. API
   <img width="900" height="550" src="readmeimages/uscharityinfo.gif">
 </p>
  
-
+##Sources
+  - "How To Check Out A Charity Before Giving" by William P. Barrett (https://www.forbes.com/sites/williampbarrett/2018/12/11/charities-to-donate/#2937d7d76f29)
  
