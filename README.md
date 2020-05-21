@@ -41,7 +41,7 @@ Dataset was in CSV format. Webscraped in 2019 with rating details from 2017. API
  - Introduces what the project is about, the mission, Oprah, and our team.
  
  <p align="center">
- <img src="readmeimages/index.gif" width="800" height="550" />
+ <img src="readmeimages/index.gif" width="900" height="550" />
  </p>
  
 ## CHARITY DETAILS
@@ -50,7 +50,7 @@ Dataset was in CSV format. Webscraped in 2019 with rating details from 2017. API
  - Gives description of charity name, cause, subcategory, state, and mission statement.
  
  <p align="center">
- <img src="readmeimages/charitydetails.gif" width="800" height="550" />
+ <img src="readmeimages/charitydetails.gif" width="900" height="550" />
  </p>
  
 ## FINANCIAL DASHBOARD
@@ -61,7 +61,7 @@ Dataset was in CSV format. Webscraped in 2019 with rating details from 2017. API
  - Shows breakdown of total revenue, breakdown of total expenses, and ceo compensation.
  
  <p align="center">
- <img src="readmeimages/financialdashboard.gif" width="600" height="400" />
+ <img src="readmeimages/financialdashboard.gif" width="900" height="550" />
  </p>
  
 ## US Charity Info
@@ -70,7 +70,7 @@ Dataset was in CSV format. Webscraped in 2019 with rating details from 2017. API
  - Average Score per Cause Category shows overall scores for categories. Gives general idea of charity types-encourages further exploration.
  
  <p align="center">
-  <img width="800" height="550" src="readmeimages/uscharityinfo.gif">
+  <img width="900" height="550" src="readmeimages/uscharityinfo.gif">
 </p>
  
 
