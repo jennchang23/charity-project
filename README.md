@@ -14,7 +14,7 @@ Our goal: Build a website to improve charity transparency through visualizations
   * Main Page
   * Charity Navigation Table 
   * Charity Financial Information
-  * National Chartiy Distribution and Variety of Ratings
+  * National Charity Distribution and Variety of Ratings
 
 ## EXTRACT
 Data Sources found on Kaggle:
