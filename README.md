@@ -31,10 +31,6 @@ Dataset was in CSV format. Webscraped in 2019 with rating details from 2017. API
    - Note that the csv was composed of objects and float64 dtypes.
    - No joining required because of single csv.
   
-  
-<p align="center">
-  <img width="800" height="550" src="images/Netflix_RT_ERD_Diagram_cropped.png">
-</p>
    
 
 ## LOAD
