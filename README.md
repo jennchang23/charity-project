@@ -44,12 +44,14 @@ Dataset was in CSV format. Webscraped in 2019 with rating details from 2017. API
  - This shows the landing page of our site.
  - Introduces what the project is about, the mission, Oprah, and our team.
  
- <img src="readmeimages/index.gif" width="40" height="40" />
+ <img src="readmeimages/index.gif" width="800" height="550" />
  
 ## CHARITY DETAILS
  - Allows users to browse a table with the complete database of charities. 
  - Filter options available for name, cause, and state.
  - Gives description of charity name, cause, subcategory, state, and mission statement.
+ 
+ <img src="readmeimages/charitydetails.gif" width="40" height="40" />
  
 ## FINANCIAL DASHBOARD
  - Bubble chart allows users to see what charities are fundraising the most efficiently.
