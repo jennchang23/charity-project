@@ -47,7 +47,7 @@ Dataset was in CSV format. Webscraped in 2019 with rating details from 2017. API
  - Filter options available for name, cause, and state.
  - Gives description of charity name, cause, subcategory, state, and mission statement.
  
- <img src="readmeimages/charitydetails.gif" width="40" height="40" />
+ <img src="readmeimages/charitydetails.gif" width="800" height="550" />
  
 ## FINANCIAL DASHBOARD
  - Bubble chart allows users to see what charities are fundraising the most efficiently.
@@ -56,13 +56,15 @@ Dataset was in CSV format. Webscraped in 2019 with rating details from 2017. API
  - Charity financial tool gives a dropdown of all charities in database.
  - Shows breakdown of total revenue, breakdown of total expenses, and ceo compensation.
  
+ <img src="readmeimages/financialdashboard.gif" width="800" height="550" />
+ 
 ## US Charity Info
  - Shows the distribution of charities across the United States. 
  - Allows users to see how many charities exist within a state of interest.
  - Average Score per Cause Category shows overall scores for categories. Gives general idea of charity types-encourages further exploration.
  
  <p align="center">
-  <img width="800" height="550" src="readmeimages/uscharityinfo.png">
+  <img width="800" height="550" src="readmeimages/uscharityinfo.gif" width="800" height="550">
 </p>
  
 
